@@ -1,6 +1,6 @@
 setTimeout(()=>{document.getElementById('loadbacktext').style.opacity=1;document.getElementById('loadbacktexteng').style.opacity = 1;},100);
 setTimeout(()=>{document.getElementById('loadbacktext').style.opacity=0;document.getElementById('loadbacktexteng').style.opacity = 0;},2100);
-setTimeout(()=>{document.getElementById('loadbacktext').innerText = '与君初相识，犹如故人归。欢迎来到星源的网站';
+setTimeout(()=>{document.getElementById('loadbacktext').innerText = '与君初相识，犹如故人归。祝你端午快乐';
 
 document.getElementById('loadbacktexteng').innerText='Meeting you first time is like seeing an old friend.Welcome to Starry Source\'s website.'
 document.getElementById('loadbacktext').style.opacity = 1;document.getElementById('loadbacktexteng').style.opacity=1;},4100);
