@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+body {
+	height: 200vh;
+}
+
+a,b {
+	color: #FFF;
+}
+
+a:hover {
+	color:#0F0;
+}
+
+.soundflash {
+	text-align: center;
+	padding: 2px;
+}
+
+.end-github {
+	color: #FF0;
+	margin: 5px;
+}
+
+.soundflash {
+	background-color: #666;
+	color: #FFF;
+}
+
+.soundflash:hover {
+	background-color: #000;
+}
