@@ -1,7 +1,7 @@
 /* 设置网页 */
 body {
 	margin: 0;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 /* 创建两个粽子图像容器 */
