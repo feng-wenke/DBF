@@ -6,15 +6,14 @@ body {
 
 /* 创建两个粽子图像容器 */
 .zongzi-container {
-	position: absolute;
+	position: fixed;
 	width: 100px;
-	height: 100px;
+	height: auto;
 }
 
 /* 设置左边粽子图像容器的位置和样式 */
 .left-zongzi {
 	left: 70px;
-	position: fixed;
         -webkit-transform-origin: 50% -100px;
         -webkit-animation: swing 5s infinite ease-in-out;
 }
@@ -22,7 +21,6 @@ body {
 /* 设置右边粽子图像容器的位置和样式 */
 .right-zongzi {
 	right: 70px;
-	position: fixed;
         -webkit-transform-origin: 50% -100px;
         -webkit-animation: swing 5s infinite ease-in-out;
 }
