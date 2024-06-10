@@ -1,7 +1,7 @@
 /* 设置网页 */
 body {
 	margin: 0;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 
 /* 创建两个粽子图像容器 */
@@ -13,14 +13,14 @@ body {
 
 /* 设置左边粽子图像容器的位置和样式 */
 .left-zongzi {
-	left: 70px;
+	left: 40px;
         -webkit-transform-origin: 50% -100px;
         -webkit-animation: swing 5s infinite ease-in-out;
 }
 
 /* 设置右边粽子图像容器的位置和样式 */
 .right-zongzi {
-	right: 70px;
+	right: 40px;
         -webkit-transform-origin: 50% -100px;
         -webkit-animation: swing 5s infinite ease-in-out;
 }
