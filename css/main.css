@@ -41,38 +41,9 @@ a:hover {
 .soundflash:hover {
 	background-color: #000;
 }
-.music-player-container {
-    width:1000px;
-    text-align: center; /* 使播放器在容器内居中显示 */
-    margin:20px auto 20px auto; 
-  }
-
-.music-player {
-    width: 300px; /* 设置播放器的宽度 */
-    border: 2px solid #000; /* 添加边框 */
-    padding: 10px; /* 在播放器内容和边框之间添加一些空间 */
-    border-radius: 10px; /* 添加圆角 */
-    background-color: orange; /* 设置背景颜色 */
-  }
-
-
-.button-container {
-    width:1000px;
-    margin:20px auto 20px auto;/*居中*/
-    text-align: center; /* 使按钮在容器内居中显示 */
-  }
-
-.button-container button{
-     padding: 10px 20px; /* 添加内边距 */
-    font-size: 40px; /* 设置字体大小 */
-    border: none; /* 移除边框 */
-    background-color: orange; /* 设置背景颜色 */
-    color: black; /* 设置文字颜色 */
-    cursor: pointer; /* 更改鼠标指针样式 */
-    border-radius: 5px; /* 添加圆角 */
-}
-
-.button-container button:active {
-    background-color: green; /* 鼠标点击时的背景颜色 */
-    transition: background-color 0.3s; /* 瞬间过渡效果 */
+.audio-player{
+    height: 160px;
+    position:absolute;
+    right:40px;
+    top:-50px;
 }
