@@ -8,7 +8,7 @@ body {
 .zongzi-container {
 	position: fixed;
 	width: 100px;
-	height: auto;
+	height: 100px;
 }
 
 /* 设置左边粽子图像容器的位置和样式 */
