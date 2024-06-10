@@ -13,16 +13,18 @@ body {
 
 /* 设置左边粽子图像容器的位置和样式 */
 .left-zongzi {
-	left: 100px;
-	  -webkit-transform-origin: 50% -100px;
-  -webkit-animation: swing 5s infinite ease-in-out;
+	left: 70px;
+	position: fixed;
+        -webkit-transform-origin: 50% -100px;
+        -webkit-animation: swing 5s infinite ease-in-out;
 }
 
 /* 设置右边粽子图像容器的位置和样式 */
 .right-zongzi {
-	right: 100px;
-	  -webkit-transform-origin: 50% -100px;
-  -webkit-animation: swing 5s infinite ease-in-out;
+	right: 70px;
+	position: fixed;
+        -webkit-transform-origin: 50% -100px;
+        -webkit-animation: swing 5s infinite ease-in-out;
 }
 
 /* 创建粽子图像 */
