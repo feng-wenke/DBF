@@ -7,7 +7,7 @@ body {
 /* 创建两个粽子图像容器 */
 .zongzi-container {
 	position: fixed;
-	bottom: 0;
+	bottom: 90vh;
 	width: 100px;
 	height: 100px;
 }
